@@ -1,0 +1,132 @@
+/* Body background color and font */
+body{
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin:0;
+  background-color: #f4f4f4;
+}
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+/* Header */
+header{
+  background: #353637;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #4682B4 3px solid;
+}
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+header #branding{
+  float: left;
+  width: 400px;
+}
+header #branding h1{
+  margin: 0;
+}
+/* Header navigation */
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+header .highlight, header .current a{
+  color: #4682B4;
+  font-weight: bold;
+}
+header a:hover{
+  color: #cccccc;
+  font-weight: bold;
+}
+/* Showcase - middle picture on front page*/
+#showcase {
+  min-height: 400px;
+  background:url('../img/headerbg.jpg') no-repeat center;
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+}
+#showcase h1{
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+#showcase p{
+  font-size: 20px;
+}
+.box{
+  margin-left: 4px;
+  margin-right: 4px;
+  padding-left: 10px;
+}
+/* Sidebar */
+aside#sidebar{
+  float: right;
+  width: 30%;
+  padding: 5px;
+}
+aside#sidebar .contact input, aside#sidebar .contact textarea{
+  width: 90%;
+  padding: 5px;
+}
+article#main-col{
+  float: left;
+  width: 65%;
+}
+/* Sidebar image with text */
+.img-with-text {
+  text-align: justify;
+  width: 400px;
+}
+.img-with-text img {
+  display: left;
+  margin: 0 auto;
+}
+/* Portfolio */
+ul#portfolio li{
+  list-style: none;
+  list-style-type: disc;
+  padding: 20px;
+  border: #cccccc solid 1px;
+  margin-bottom: 5px;
+  background: #4682B4;
+}
+ul#portfolio h3{
+  border-bottom: #353637 solid 1px;
+}
+ul {
+  list-style-type: disc;
+  margin-left: 70px;
+}
+/* Footer */
+footer{
+  padding: 20px;
+  margin-top: 20px;
+  color: #FFFFFF;
+  background-color: #4682B4;
+  text-align: center;
+}
+/* Flex */
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.index {
+flex-direction:column;
+}
